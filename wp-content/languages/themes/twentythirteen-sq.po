@@ -1,0 +1,354 @@
+# Translation of Twenty Twelve in Albanian
+# This file is distributed under the same license as the Twenty Twelve package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Twelve\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
+"POT-Creation-Date: 2013-07-31 21:14:30+00:00\n"
+"PO-Revision-Date: 2013-12-16 14:22+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+
+#: 404.php:16
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Kjo është pak turpëruese, apo jo?"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Duket se nuk u gjet gjë në këtë vend. Ndoshta duhet provuar një kërkim?"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Arkiva të Përditshme: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Arkiva të Përmuajshme: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Arkiva të Përvitshme: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Arkiva"
+
+#: author-bio.php:16
+msgid "About %s"
+msgstr "Rreth %s"
+
+#: author-bio.php:20
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Shihni krejt postimet nga %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:30
+msgid "All posts by %s"
+msgstr "Krejt postimet nga %s"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "Arkiva Kategorish: %s"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Komentet janë të mbyllura."
+
+#: content-aside.php:13
+#: content-audio.php:24
+#: content-gallery.php:24
+#: content-image.php:23
+#: content-link.php:24
+#: content-quote.php:13
+#: content-status.php:13
+#: content-video.php:23
+#: content.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vazhdoni leximin <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:14
+#: content-audio.php:25
+#: content-chat.php:24
+#: content-gallery.php:25
+#: content-image.php:24
+#: content-link.php:25
+#: content-quote.php:14
+#: content-status.php:14
+#: content-video.php:24
+#: content.php:40
+#: image.php:70
+#: page.php:35
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: content-aside.php:20
+#: content-aside.php:28
+#: content-audio.php:31
+#: content-chat.php:29
+#: content-gallery.php:39
+#: content-image.php:35
+#: content-link.php:19
+#: content-quote.php:25
+#: content-status.php:19
+#: content-video.php:35
+#: content.php:29
+#: image.php:44
+#: page.php:39
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:47
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:47
+msgid "One comment so far"
+msgstr "Një koment deri tani"
+
+#: content-gallery.php:36
+#: content-image.php:32
+#: content-quote.php:22
+#: content-video.php:32
+#: content.php:47
+msgid "View all % comments"
+msgstr "Shihni krejt % komentet"
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk gjejmë dot ç&rsquo;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#. #-#-#-#-#  twentythirteen.pot (Twenty Thirteen 1.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:20
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:20
+msgid "Semantic Personal Publishing Platform"
+msgstr "Platformë Semantike Publikimesh Personale"
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: functions.php:93
+msgid "Navigation Menu"
+msgstr "Menu Lëvizjeje"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:124
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Bitter, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:130
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:212
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: functions.php:227
+msgid "Main Widget Area"
+msgstr "Fushë Parësore <em>Widget</em>-esh"
+
+#: functions.php:229
+msgid "Appears in the footer section of the site."
+msgstr "Duket te pjesa e poshtme e sajtit."
+
+#: functions.php:237
+msgid "Secondary Widget Area"
+msgstr "Fushë Dytësore <em>Widget</em>-esh"
+
+#: functions.php:239
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Duket në postime dhe faqe te anështylla."
+
+#: functions.php:264
+msgid "Posts navigation"
+msgstr "Lëvizje te postimet"
+
+#: functions.php:268
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postime më të vjetra"
+
+#: functions.php:272
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postime më të reja <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:300
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: functions.php:303
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:304
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:324
+msgid "Sticky"
+msgstr "I ngjitur"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:330
+#: functions.php:336
+msgid ", "
+msgstr ", "
+
+#: functions.php:345
+msgid "View all posts by %s"
+msgstr "Shihni tërë postimet nga %s"
+
+#: functions.php:365
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s më %2$s"
+
+#: functions.php:371
+msgid "Permalink to %s"
+msgstr "Permalidhje te %s"
+
+#: header.php:43
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#: image.php:22
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Botuar më <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> te <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: image.php:38
+msgid "Link to full-size image"
+msgstr "Lidhje për te figura në madhësi të plotë"
+
+#: image.php:39
+msgid "Full resolution"
+msgstr "Qartësi e plotë"
+
+#: image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> I mëparshmi"
+
+#: image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pasuesi <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/back-compat.php:38
+#: inc/back-compat.php:50
+#: inc/back-compat.php:65
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Thirteen lyp të paktën WordPress-in në version 3.6. Po xhironi versionin %s. Ju lutemi, përmirësojeni dhe riprovoni."
+
+#: inc/custom-header.php:48
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Rreth"
+
+#: inc/custom-header.php:53
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "Diamant"
+
+#: inc/custom-header.php:58
+msgctxt "header image description"
+msgid "Star"
+msgstr "Yllkë"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Arkiva Etiketash: %s"
+
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "%s Arkiva"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/twentythirteen"
+msgstr "http://wordpress.org/themes/twentythirteen"
+
+#. Description of the plugin/theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "Tema e 2013-s për WordPress-in na rikthen te blogu, me një interval të plotë formatesh postimesh, shfaqur secili hijshëm sipas mënyrës së tij unike secili. Hollësitë e dizajnit janë me tepricë, duke filluar me një skemë vibrante ngjyrash dhe që shkon mjaft me figura kryeje, tipografi dhe ikona të hijshme, dhe një skicim të epshëm që duket bukur në çfarëdo pajisje, të madhe apo të vogël."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Ekipi i WordPress-it"
+

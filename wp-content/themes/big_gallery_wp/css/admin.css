@@ -1,0 +1,32 @@
+
+h2.bg_tabs {
+	margin-top:20px;
+}
+
+.tab_content {
+	border: 1px solid #CCCCCC;
+	border-width: 0 1px 1px 1px; 
+	padding: 10px 0 8px 0;
+}
+
+.tab_content th {
+	background:#F1F1F1; 
+	line-height:35px;
+	border-right: 1px solid #CCCCCC; 
+}
+
+.tab_content td {
+	padding:15px; 
+	border-right: 1px solid #CCCCCC; 
+}
+
+.tab_content tr {
+	border-top: 1px solid #CCCCCC; 
+	width:80%;
+	margin:0 20px 0 20px;
+}
+
+.tab_content span.description {
+	color:#999999;
+	padding: 0 10px 0 10px;
+}

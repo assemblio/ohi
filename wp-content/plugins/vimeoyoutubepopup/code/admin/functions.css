@@ -1,0 +1,274 @@
+.vimeoyoutubepopup_wrap {
+	width:740px;
+}
+
+.vimeoyoutubepopup_section {
+	border:1px solid #ddd;
+	border-bottom:0;
+	background:#f9f9f9;
+}
+
+.vimeoyoutubepopup_section .radio-container {
+	display: block;
+	float: left;
+}
+
+.vimeoyoutubepopup_section .radio-container input {
+	float:left;
+	font-size:12px;
+	margin-right:5px;
+}
+
+.vimeoyoutubepopup_opts label{
+	font-size:12px;
+	font-weight:700;
+	width:200px;
+	display:block;
+	float:left;	
+}
+.vimeoyoutubepopup_input {
+	padding:30px 10px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.vimeoyoutubepopup_opts small{
+	display:block;
+	float:right;
+	width:200px;
+	color:#999;
+}
+.vimeoyoutubepopup_opts input[type="text"], .vimeoyoutubepopup_opts select{
+	width:280px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#f3f3f3;
+}
+.vimeoyoutubepopup_input input:focus, .vimeoyoutubepopup_input textarea:focus{
+		background:#fff;
+}
+.vimeoyoutubepopup_input textarea{
+	width:280px;
+	height:175px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1.5em;
+	background:#f3f3f3;
+}
+.vimeoyoutubepopup_title h3 {
+	cursor:pointer;
+	font-size:1em;
+	text-transform: uppercase;
+	margin:0;
+	font-weight:bold;
+	color:#232323;
+	float:left;
+	width:80%;
+	padding:14px 4px;
+}
+
+.vimeoyoutubepopup_title{
+	cursor:pointer;
+	border-bottom:1px solid #ddd;
+	background:#eee;
+	padding:0;
+	}
+
+.vimeoyoutubepopup_title h3 img.inactive{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('images/pointer.png') no-repeat 0 0;
+	float:left;
+	-moz-border-radius:6px;
+	border:1px solid #ccc;
+}
+
+.vimeoyoutubepopup_title h3 img.active{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('images/pointer.png') no-repeat  0 -32px;
+	float:left;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border:1px solid #ccc;
+}
+		
+.vimeoyoutubepopup_title h3:hover img{
+	border:1px solid #999;
+}
+
+.vimeoyoutubepopup_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.vimeoyoutubepopup_table th, .vimeoyoutubepopup_table td{
+	border:1px solid #bbb;
+	padding:10px;
+	text-align:center;
+}
+
+.vimeoyoutubepopup_table th, .vimeoyoutubepopup_table td.feature{
+	border-color:#888;
+	}
+	
+/* Custom Form Builder
+--------------------------*/
+.vimeoyoutubepopup_wrap .rounded-item { 
+	border: 1px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px; 
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); 
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); 
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); 
+}
+
+.vimeoyoutubepopup_wrap .form-builder-wrap .code { 
+	display:none;
+}
+
+.vimeoyoutubepopup_wrap .formBuilder {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding: 15px;
+	width: 477px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes {
+    float: left;
+    margin-right: 35px;
+    width: 146px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes .add {
+	background:url("images/define-questions-buttons-3.png") no-repeat;
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	height:24px;
+	width:24px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes .title {
+	float: left;
+    margin-top: 7px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes ul {
+    border: 1px solid #999999;
+    list-style: none outside none;
+    margin: 0;
+    padding: 15px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes ul li {
+    border-bottom: 2px dotted #CCCCCC;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.vimeoyoutubepopup_wrap #questionOrder {
+    float: left;
+    width: 522px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li.active {
+    background: #FFFFFF;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 6px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing {
+    display: block;
+    padding: 5px 0;
+}
+
+.vimeoyoutubepopup_wrap .define-questions #question-editing ul.questions li .default {
+    display: block;
+    padding: 5px 11px;
+}
+
+.vimeoyoutubepopup_wrap #questionTypes ul li.last {
+    border: medium none;
+    margin-bottom: 0;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing .q-left {
+    background: #FF3C1E url("images/q-number-bg.png") no-repeat top right;
+    height: 34px;
+    margin-top: 5px;
+    width: 70px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing .q-number .text {
+    color: #FFFFFF;
+    font-size: 7px;
+    line-height: 7px;
+    padding: 3px 0 1px 3px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing .q-number .number {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0 0 0 3px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing h3 {
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: normal;
+    padding: 0 11px 5px;
+    width: auto;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing h3 em {
+	color: #999999;
+    font-size: 11px;
+}
+
+.vimeoyoutubepopup_wrap #question-editing ul.questions li .editing a.control {
+    cursor:pointer;
+	float: right;
+}
+
+.vimeoyoutubepopup_wrap #question-editing .element{
+	padding: 5px 14px 13px;
+}
+
+.vimeoyoutubepopup_wrap  #question-editor {
+	background:#ffffff;
+	border: dashed 2px #00bcf5;
+    padding: 126px 0;
+	text-align:center;
+}
+
+.vimeoyoutubepopup_wrap #question-editor .head {
+    color: #000000;
+    font-size: 20px;
+	font-weight:normal;
+}
+
+.vimeoyoutubepopup_wrap #question-editor .sub-head {
+    color: #666666;
+    font-size: 14px;
+	font-weight:normal;
+    padding: 10px 0 0;
+}

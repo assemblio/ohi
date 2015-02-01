@@ -1,0 +1,71 @@
+Single.php
+
+Raw 33
+<div class="item">
+								<?php 
+								$thumb = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'pw-blog_thumb' );
+								$url = $thumb['0'];
+								?>
+								<img src="<?php echo $url;?>" alt="<?php the_title(); ?>" class="photo"/>
+								<?php 
+								$src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full', false, '' );
+								?>
+								<a class="fancybox" href="<?php echo $src[0];?>" title="<?php the_title(); ?>"></a>
+								<?php
+								if ( get_option( 'bg_share_gallery' ) ) {
+									if( get_option( 'bg_share_linkto' ) == 'current' ) {
+										$share_link = get_permalink();
+									} else {
+										$share_link = get_attachment_link( get_post_thumbnail_id( $post->ID ) );
+									}
+									$output = '<ul class="gallery-share-hidden ' . str_replace(array('http://','/','.',' ',')','('), array('','','','','',''), substr($src[0] ,strpos($src[0] ,'uploads')+7)) . '">';
+									if ( get_option( 'bg_share_facebook' ) ) {
+										$output .= '<li><a target="blank" href="http://www.facebook.com/sharer/sharer.php?s=100&p[images][0]=' . $src[0] . '&p[url]=' . urlencode( $share_link ) . '&p[title]=' . urlencode( the_title( '', '', false ) ) . '&p[summary]=' . urlencode( get_the_excerpt() ) . '" title="' . __( 'facebook', 'biggallery' ) . '" class="qtip"><img src="' . get_template_directory_uri() . '/img/icons/social/facebook.png" alt=""/></a></li>';	
+									}	
+									if ( get_option( 'bg_share_twitter' ) ) {
+										$output .= '<li><a target="blank" href="https://twitter.com/intent/tweet?text=' . wptexturize( the_title( '' , '', false ) ) . ' ' . $share_link . '" title="' . __( 'twitter', 'biggallery' ) . '" class="qtip"><img src="' . get_template_directory_uri() . '/img/icons/social/twitter.png" alt=""/></a></li>';
+									}
+									if ( get_option( 'bg_share_gplus' ) ) {
+										$output .= '<li><a target="blank" href="https://plus.google.com/share?url=' . $share_link . '" title="' . __( 'google +', 'biggallery' ) . '" class="qtip"><img src="' . get_template_directory_uri() . '/img/icons/social/gplus.png" alt=""/></a></li>';
+									}
+									if ( get_option( 'bg_share_pinterest' ) ) {
+										$output .= '<li><a title="' . __( 'pinterest', 'biggallery' ) . '" class="qtip" target="blank" href="http://pinterest.com/pin/create/button/?url=' . $share_link . '&media=' .$src[0] . '&description=' . wptexturize( the_title( '', '', false ) ) . '"><img src="' . get_template_directory_uri() . '/img/icons/social/pinterest.png" alt=""/></a></li>';
+									}
+									$output .= '</ul>';
+									echo $output;
+								}
+								?>
+								<div class="details">
+									<div class="mblogfooter2 custom_font"><p><?php the_title(); ?></p></div>
+								</div>
+								<div class="loupe"></div>
+								<img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo $bigg_skin; ?>/shadow.png" class="shadow"  alt=""/>							
+							</div>
+						<?php endif; ?>
+
+
+
+Archive.php
+
+Row 44 and 45
+
+'.__( 'Filter:', 'biggallery' ).'
+'.__('All','biggallery').'
+
+
+qtip.css both att Theme folder and from Plugin folder Ninja-Form
+
+Row 6-7
+
+	position: absolute;
+	left: -28000px;
+	top: -28000px;
+	display: none;
+
+	max-width: 280px;
+	min-width: 50px;
+
+	font-size: 10.5px;
+	line-height: 12px;
+
+	direction: ltr;
