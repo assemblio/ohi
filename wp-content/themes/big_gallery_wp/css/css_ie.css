@@ -30,7 +30,7 @@ h1.big_header {
 .butt:hover,
 .butt:active {
 	background: #161616 !important;
-	background-image: url(../img/button_arrow_hover.png) !important;
+	/*background-image: url(../img/button_arrow_hover.png) !important;*/
 	background-position: right center !important;
 	background-repeat:no-repeat !important;
 }
